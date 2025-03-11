@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Basket - Añadir Producto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="login-container">
+  <h1 class="title">Añadir Producto</h1>
+  <p class="subtitle">Ingrese los datos nutricionales</p>
+  <div class="logo-container">
+    <div class="circle">
+      <img src="img/Logo Healthy(SinLetras).png" alt="Basket Icon">
+    </div>
+  </div>
+  <form id="add-product-form">
+    <div class="input-group">
+      <input type="number" id="calories" placeholder="Calorías (kcal)" required>
+    </div>
+    <div class="input-group">
+      <input type="number" id="fats" placeholder="Grasas (g)" required>
+    </div>
+    <div class="input-group">
+      <input type="number" id="carbs" placeholder="Carbohidratos (g)" required>
+    </div>
+    <div class="input-group">
+      <input type="number" id="proteins" placeholder="Proteínas (g)" required>
+    </div>
+    <div class="input-group">
+      <input type="text" id="subcategory" placeholder="Subcategoría" required>
+    </div>
+    <button type="submit" class="create-btn">Registrar Producto</button>
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
