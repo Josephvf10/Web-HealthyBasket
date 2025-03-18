@@ -1,0 +1,110 @@
+body {
+    background-color: #162914;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #14240f;
+    padding: 20px;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.logo {
+    font-size: 18px;
+    color: #9fdc8f;
+}
+
+.menu-icon, .cart-icon {
+    font-size: 24px;
+    color: #9fdc8f;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-bar button {
+    background: #9fdc8f;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-card img {
+    width: 40%;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.description p, .description span {
+    color: black;
+}
+
+.nutriscore, .reviews, .suggestions {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.nutriscore .score {
+    margin-top: 10px;
+}
+
+.nutriscore .score span {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.score .a { background-color: #5cb85c; }
+.score span:nth-child(2) { background-color: #a8c846; }
+.score span:nth-child(3) { background-color: #ffdb4d; }
+.score span:nth-child(4) { background-color: #f0ad4e; }
+.score span:nth-child(5) { background-color: #d9534f; }
+
+.stars {
+    color: gold;
+}
+
+.suggestion-list {
+    display: flex;
+    gap: 15px;
+}
+
+.suggestion-card {
+    width: 50%;
+    height: 80px;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+

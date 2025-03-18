@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #162914;
+    font-family: Arial, sans-serif;
+    color: #a8f08e;
+}
+
+.contra-container {
+    width: 90%;
+    max-width: 400px;
+    background: #1d2b1f;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #a8f08e;
+}
+
+.circle {
+    
+    height: 100px;
+    background: radial-gradient(circle, rgba(255,255,255,0.2) 10%, transparent 60%);
+    border-radius: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: 80px;
+}
+
+.input-group {
+    background: #2e3d2f;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input-group input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.contra-btn, .create-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.create-btn {
+    background: #a8f08e;
+    color: black;
+}

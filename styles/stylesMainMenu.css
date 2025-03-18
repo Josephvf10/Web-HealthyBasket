@@ -1,0 +1,86 @@
+/* General */
+body {
+    background-color: #162914;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px 30px 0 0;
+    width: 90%;
+    max-width: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 50px;
+    box-sizing: border-box;
+}
+
+/* Encabezado */
+.header {
+    background: #14240f;
+    color: #9fdc8f;
+    padding: 40px 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #9fdc8f;
+}
+
+/* Botones del menú */
+.menu-button {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    background: #14240f;
+    border: 2px solid #9fdc8f;
+    border-radius: 30px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-button:hover {
+    background: #1c3215;
+}
+
+/* Botón de vista cliente */
+.client-view-button {
+    width: 90%;
+    padding: 12px;
+    background: #9fdc8f;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.client-view-button:hover {
+    background: #7fba6f;
+}
+
+/* Pie de página */
+.footer {
+    background: #14240f;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    margin-top: 20px;
+}

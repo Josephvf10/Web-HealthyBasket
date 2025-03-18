@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="styles/stylesMenuProductos.css">
+</head>
+<body>
+
+<!-- Menú Desplegable -->
+<div class="menu" id="menu">
+    <ul>
+        <li>Carnes y pescados</li>
+        <li>Alimentos Básicos</li>
+        <li>Lácteos y Huevos</li>
+        <li>Bebidas</li>
+        <li>Alimentos Procesados</li>
+        <li>Dulces y Snacks</li>
+        <li>Frutas y Verduras</li>
+        <li>Otros</li>
+    </ul>
+</div>
+
+<div class="overlay" id="overlay"></div>
+
+<div class="container">
+    <div class="header">
+        <div class="menu-icon" id="menuIcon">☰</div>
+        <div class="logo">Healthy Basket</div>
+        <div class="cart-icon">🛒</div>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Buscar Producto">
+        <button id="searchBtn">🔍</button>
+    </div>
+
+    <div class="categories">
+        <button class="category-button active">All</button>
+        <button class="category-button">Lácteos</button>
+        <button class="category-button">Bebidas</button>
+    </div>
+
+    <div class="product-list">
+        <div class="product-card">
+            <img src="coca.png" alt="CocaCola 330ml">
+            <p>CocaCola 330ml</p>
+            <span>0.88€</span>
+            <button class="add-button">+</button>
+        </div>
+        <div class="product-card">
+            <img src="chocolate.png" alt="Chocolate">
+            <p>Chocolate</p>
+            <span>1.80€</span>
+            <button class="add-button">+</button>
+        </div>
+    </div>
+</div>
+
+<script src="scripts/scriptMenuProductos.js"></script>
+</body>
+</html>
+

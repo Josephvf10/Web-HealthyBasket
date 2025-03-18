@@ -8,8 +8,7 @@ body {
     color: #a8f08e;
 }
 
-/*LOGIN*/
-.login-container {
+.registro-container {
     width: 90%;
     max-width: 400px;
     background: #1d2b1f;
@@ -56,7 +55,7 @@ body {
     text-align: center;
 }
 
-.login-btn, .create-btn {
+.registro-btn, .create-btn {
     width: 100%;
     padding: 10px;
     border-radius: 10px;
@@ -64,14 +63,9 @@ body {
     cursor: pointer;
 }
 
-.login-btn {
-    background: #152317;
-    color: white;
-}
+
 
 .create-btn {
     background: #a8f08e;
     color: black;
 }
-
-
