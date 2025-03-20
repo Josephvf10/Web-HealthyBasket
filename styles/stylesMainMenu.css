@@ -11,7 +11,7 @@ body {
 
 /* Contenedor principal */
 .container {
-    background: white;
+    background: #1d2b1f;
     color: black;
     text-align: center;
     padding: 20px;
@@ -24,9 +24,19 @@ body {
     box-sizing: border-box;
 }
 
+.circle {
+    
+    height: 100px;
+    background: radial-gradient(circle, rgba(255,255,255,0.2) 10%, transparent 60%);
+    border-radius: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Encabezado */
 .header {
-    background: #14240f;
+    /*background: #14240f;*/
     color: #9fdc8f;
     padding: 40px 20px;
     border-radius: 20px 20px 0 0;
@@ -79,7 +89,7 @@ body {
 
 /* Pie de página */
 .footer {
-    background: #14240f;
+    /*background: #14240f;*/
     padding: 20px;
     border-radius: 0 0 20px 20px;
     margin-top: 20px;
